@@ -5,4 +5,4 @@ git clone https://github.com/RLesur/MachineLearning.git --branch onyxia /home/jo
 # Install dependencies
 pip install -r /home/jovyan/work/requirements.txt
 
-jupyterhub --Spawner.default_url='/tree/work/matrice_de_confusion_ROC_AUC.ipynb'
+echo -e "\n\nc.Spawner.default_url = '/tree/work/matrice_de_confusion_ROC_AUC.ipynb'" >> /etc/jupyter/jupyter_notebook_config.py
