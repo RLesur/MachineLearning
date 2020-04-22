@@ -1,7 +1,6 @@
 #!/bin/sh
-# Clone the repository in /home/jovyan
-cd /home/jovyan
-git clone https://github.com/RLesur/MachineLearning.git --branch onyxia
+# Clone the repository in /home/jovyan/work
+git clone https://github.com/RLesur/MachineLearning.git --branch onyxia /home/jovyan/work
 
 # Install dependencies
-pip install -r /home/jovyan/MachineLearning/requirements.txt
+pip install -r /home/jovyan/work/requirements.txt
