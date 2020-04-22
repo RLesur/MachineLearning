@@ -1,3 +1,4 @@
+#!/bin/sh
 # Clone the repository in /home/jovyan
 cd /home/jovyan
 git clone https://github.com/RLesur/MachineLearning.git --branch onyxia
